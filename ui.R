@@ -1,19 +1,3 @@
-#Getting the required files for descriptives and charts
-read.csv("./EE.csv",stringsAsFactors = F,header = T)
-read.csv("./OO.csv",stringsAsFactors = F,header = T)
-read.csv("./Te.csv",stringsAsFactors = F,header = T)
-read.csv("./Th.csv",stringsAsFactors = F,header = T)
-read.csv("./Vi.csv",stringsAsFactors = F,header = T)
-read.csv("./Vo.csv",stringsAsFactors = F,header = T)
-
-#File import for word cloud
-read.csv("./nee.csv")
-read.csv("./noo.csv")
-read.csv("./nte.csv")
-read.csv("./nth.csv")
-read.csv("./nvi.csv")
-read.csv("./nvo.csv")
-
 #Getting the required packages
 
 # install.packages("shiny")
